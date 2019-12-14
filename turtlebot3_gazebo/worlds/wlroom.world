@@ -1,5 +1,5 @@
 <sdf version='1.6'>
-  <world name='default'>
+  <world name='wlroom'>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose frame=''>0 0 10 0 -0 0</pose>
@@ -86,7 +86,7 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <model name='lroom'>
-      <pose frame=''>0 -0.75 0 0 -0 0</pose>
+      <pose frame=''>0 -0.25 0 0 -0 0</pose>
       <link name='Stairs_1'>
         <visual name='Stairs_1_Visual_0'>
           <pose frame=''>1.72333 -3.67 0.083333 0 -0 -1.5708</pose>
@@ -864,7 +864,7 @@
               <size>8.65 0.15 2.5</size>
             </box>
           </geometry>
-          <pose frame=''>0 0 1.25 0 -0 0</pose>
+          <pose frame=''>0 0 0 0 0 0</pose>
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
@@ -1135,7 +1135,7 @@
       </link>
       <pose frame=''>-2.13837 -3.96395 0 0 -0 0</pose>
     </model>
-    <state world_name='default'>
+    <state world_name='wlroom'>
       <sim_time>109 898000000</sim_time>
       <real_time>110 315884594</real_time>
       <wall_time>1571463202 159704351</wall_time>
@@ -1426,7 +1426,7 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-3.48425 -2.38803 0.1 0 -0 0</pose>
+      <pose frame=''>-1.0 -2.38803 0.1 0 -0 0</pose>
     </model>
     <gui fullscreen='0'>
       <camera name='user_camera'>
